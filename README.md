@@ -3,7 +3,6 @@
 ![Java](https://img.shields.io/badge/Java-8%2B-blue.svg?style=for-the-badge&a)
 ![Beginner Friendly](https://img.shields.io/badge/Level-Beginner-greendge?style=for-the-badge&a)
 ![Practice](https://img.shields.io/badge/Practice-Programs-orange.svg?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-lightgrey.svg?style=for-the-badge&a)
 
 A collection of beginner-friendly **Java programs** covering fundamental concepts such as conditionals, loops, arrays, number operations, and pattern printing. Ideal for students, interview preparation, and hands-on coding practice.
 
