@@ -25,6 +25,6 @@ Each `.java` file demonstrates a specific concept or logic:
 - `CalculatorUsingSwitchCase.java` – Switch-case usage
 - `EqualArrays.java`, `FindDuplicateInArray.java` – Array operations
 - `FibonacciSeries.java`, `PalindromeNumber.java` – Sequence and logic
-- `Pattern3.java` to `Pattern8.java` – Pattern printing
+- `RightAlignedIncreasingStarPattern.java`, `DescendingStarPattern.java`, etc. – Pattern printing
 - `LeapYear.java`, `EvenOrOdd.java` – Basic condition checks
 ---
