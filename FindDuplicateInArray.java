@@ -2,25 +2,33 @@ import java.util.Scanner;
 
 public class FindDuplicateInArray {
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        int count=0;
-        System.out.println("Enter size of array :");
-        int r=sc.nextInt();
-        String arr[]=new String[r];
-        System.out.println("Enter elements of array :");
-        for(int i=0;i<r;i++){
-            arr[i]=sc.next();
+        Scanner sc = new Scanner(System.in);
+        int count = 0;
+
+        // Prompt user to enter the size of the array
+        System.out.println("Enter size of array:");
+        int r = sc.nextInt();
+
+        // Declare and initialize the array
+        String arr[] = new String[r];
+
+        // Input elements of the array
+        System.out.println("Enter elements of array:");
+        for (int i = 0; i < r; i++) {
+            arr[i] = sc.next();
         }
-        for(int i=0;i<arr.length;i++){
-            for(int j=i+1;j<arr.length;j++){
-                if((arr[i].equals(arr[j])) && i!=j){
-                    System.out.println("duplicate element is "+"'"+arr[j]+"'");
-                    count++;
-                }
-            }
+
+        // Check for duplicate elements using nested loop
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = i + 1; j < arr.length; j++) {
+                if (            }
         }
-        if(count==0){
+
+        // If no duplicates found
+        if (count == 0) {
             System.out.println("No duplicate elements!");
         }
+
+        sc.close(); // Close the scanner to avoid resource leak
     }
 }
